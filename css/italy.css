@@ -1,48 +1,44 @@
 .it-flag {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-    height: 5rem;
-    width: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  height: 5rem;
+  width: 10rem;
 }
- 
+
 /* div color  */
 
-.it-flag :nth-child(1){
-    height: 9rem;
-    width: 3rem;
-    background-color: rgba(71, 156, 1, 0.719);
-    border-radius: 3px;
-    border: 1px black solid;
+.it-flag :nth-child(1) {
+  height: 9rem;
+  width: 3rem;
+  background-color: rgba(71, 156, 1, 0.719);
+  border-radius: 3px;
+  border: 1px black solid;
 }
-.it-flag :nth-child(2){
-    height: 9rem;
-    width: 3rem;
-    background-color: rgba(255, 255, 255, 0.774);
-    borfrr-radius: 3px;
-    border: 1px black solid;
+.it-flag :nth-child(2) {
+  height: 9rem;
+  width: 3rem;
+  background-color: rgba(255, 255, 255, 0.774);
+  borfrr-radius: 3px;
+  border: 1px black solid;
 }
-.it-flag :nth-child(3){
-    height: 9rem;
-    width: 3rem;
-    background-color: rgba(252, 0, 0, 0.664);
-    border-radius: 3px;
-    border: 1px black solid;
+.it-flag :nth-child(3) {
+  height: 9rem;
+  width: 3rem;
+  background-color: rgba(252, 0, 0, 0.664);
+  border-radius: 3px;
+  border: 1px black solid;
 }
 
 /* div flag animation */
 
-
 .it-flag:hover > :nth-child(1) {
-    -webkit-transform: rotate(135deg);
-    
+  -webkit-transform: rotate(-135deg);
 }
 .it-flag:hover > :nth-child(2) {
-    opacity: 0;
- 
+  opacity: 0;
 }
 .it-flag:hover > :nth-child(3) {
-   
-    -webkit-transform: rotate(-135deg);
+  -webkit-transform: rotate(135deg);
 }
