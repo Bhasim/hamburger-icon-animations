@@ -9,7 +9,7 @@
 
 ### About Project
 
-A simple page to apply the idea of a hamburger menu On the flags of some European countries.
+A simple page to apply the idea of Hamburger menu animation On the flags of some European countries.
 
 
 ##### Developed With
