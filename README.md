@@ -5,7 +5,7 @@
 
 ---
 
-![Screenshot from Project](./img/example.png)
+![Screenshot from Project](./img/example-app.png)
 
 ### About Project
 
