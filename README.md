@@ -5,7 +5,7 @@
 
 ---
 
-![Screenshot from Project](../hamburger-icon-animations/img/bg-sample.png)
+![Screenshot from Project](./img/bg-sample.png)
 
 ### About Project
 
