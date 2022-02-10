@@ -1,0 +1,48 @@
+.fr-flag {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    height: 5rem;
+    width: 10rem;
+}
+ 
+/* div color  */
+
+.fr-flag :nth-child(1){
+    height: 9rem;
+    width: 3rem;
+    background-color: rgba(9, 81, 238, 0.774);
+    border-radius: 3px;
+    border: 1px black solid;
+}
+.fr-flag :nth-child(2){
+    height: 9rem;
+    width: 3rem;
+    background-color: rgba(255, 255, 255, 0.774);
+    borfrr-radius: 3px;
+    border: 1px black solid;
+}
+.fr-flag :nth-child(3){
+    height: 9rem;
+    width: 3rem;
+    background-color: rgba(252, 0, 0, 0.664);
+    border-radius: 3px;
+    border: 1px black solid;
+}
+
+/* div flag animation */
+
+
+.fr-flag:hover > :nth-child(1) {
+    -webkit-transform: rotate(135deg);
+    
+}
+.fr-flag:hover > :nth-child(2) {
+    opacity: 0;
+ 
+}
+.fr-flag:hover > :nth-child(3) {
+   
+    -webkit-transform: rotate(-135deg);
+}

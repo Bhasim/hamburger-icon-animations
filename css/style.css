@@ -1,2 +1,12 @@
 @import url(./normal.css);
 @import url(./de-flag.css);
+@import url(./fr-flag.css);
+@import url(./italy.css);
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 250px;
+}
