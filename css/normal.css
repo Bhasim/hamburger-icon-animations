@@ -6,4 +6,7 @@
   
   body{
     background-image: url(../img/fantasy-football-zoom-backgrounds-5.webp);
+    display: flex;
+   flex-direction: column;
   }
+
