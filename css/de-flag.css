@@ -1,50 +1,46 @@
 /* de shape  */
 
 .de-shape {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    height: 7rem;
-    width: 12rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 7rem;
+  width: 12rem;
 }
- 
+
 /* div color  */
 
-.de-shape :nth-child(1){
-    height: 3rem;
-    width: 9rem;
-    background-color: rgba(0, 0, 0, 0.774);
-    border-radius: 3px;
-    border: 1px black solid;
+.de-shape :nth-child(1) {
+  height: 3rem;
+  width: 9rem;
+  background-color: rgba(0, 0, 0, 0.774);
+  border-radius: 3px;
+  border: 1px black solid;
 }
-.de-shape :nth-child(2){
-    height: 3rem;
-    width: 9rem;
-    background-color: rgba(250, 0, 0, 0.726);
-    border-radius: 3px;
-    border: 1px black solid;
+.de-shape :nth-child(2) {
+  height: 3rem;
+  width: 9rem;
+  background-color: rgba(250, 0, 0, 0.726);
+  border-radius: 3px;
+  border: 1px black solid;
 }
-.de-shape :nth-child(3){
-    height: 3rem;
-    width: 9rem;
-    background-color: rgba(252, 164, 0, 0.726);
-    border-radius: 3px;
-    border: 1px black solid;
+.de-shape :nth-child(3) {
+  height: 3rem;
+  width: 9rem;
+  background-color: rgba(252, 164, 0, 0.726);
+  border-radius: 3px;
+  border: 1px black solid;
 }
 
 /* div shape animation */
 
-
 .de-shape:hover > :nth-child(1) {
-    -webkit-transform: rotate(135deg);
-    
+  -webkit-transform: rotate(135deg);
 }
 .de-shape:hover > :nth-child(2) {
-    opacity: 0;
- 
+  opacity: 0;
 }
 .de-shape:hover > :nth-child(3) {
-   
-    -webkit-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
 }
