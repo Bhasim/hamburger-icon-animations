@@ -1,0 +1,48 @@
+.ro-flag {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    height: 5rem;
+    width: 10rem;
+  }
+  
+  /* di color  */
+  
+  .ro-flag :nth-child(1) {
+    height: 9rem;
+    width: 3rem;
+    background-color: #000000a9;
+    border-radius: 3px;
+    border: 1px black solid;
+  }
+  .ro-flag :nth-child(2) {
+    height: 9rem;
+    width: 3rem;
+    background-color: #fddc20c2;
+    borfrr-radius: 3px;
+    border: 1px black solid;
+  }
+  .ro-flag :nth-child(3) {
+    height: 9rem;
+    width: 3rem;
+    background-color: rgba(252, 0, 0, 0.664);
+    border-radius: 3px;
+    border: 1px black solid;
+  }
+
+  /* div flag animation */
+
+  .ro-flag:hover > :nth-child(1) {
+    transform: translateY( 40px ) rotate( -90deg );
+    opacity: 0;
+  }
+  .ro-flag:hover > :last-child {
+   
+    transform: translateY( -6px ) translateX( -50px ) rotate( 90deg );
+  }
+  
+  .ro-flag:hover > :nth-child(2){
+    
+    transform: rotate( 180deg );
+  }
