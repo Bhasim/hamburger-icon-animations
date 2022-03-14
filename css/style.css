@@ -2,6 +2,7 @@
 @import url(./de-flag.css);
 @import url(./fr-flag.css);
 @import url(./italy.css);
+@import url(./belgin.css);
 
 .main-container{
     grid-area: main-container;

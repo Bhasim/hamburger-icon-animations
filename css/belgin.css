@@ -1,0 +1,60 @@
+.be-flag {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  height: 5rem;
+  width: 10rem;
+}
+
+/* di color  */
+
+.be-flag :nth-child(1) {
+  height: 9rem;
+  width: 3rem;
+  background-color: #000000a9;
+  border-radius: 3px;
+  border: 1px black solid;
+}
+.be-flag :nth-child(2) {
+  height: 9rem;
+  width: 3rem;
+  background-color: #fddc20c2;
+  borfrr-radius: 3px;
+  border: 1px black solid;
+}
+.be-flag :nth-child(3) {
+  height: 9rem;
+  width: 3rem;
+  background-color: rgba(252, 0, 0, 0.664);
+  border-radius: 3px;
+  border: 1px black solid;
+}
+
+/* div flag animation */
+
+.bar {
+    margin: 0 auto;
+   padding: 10px;
+   width: 150px;
+   height: 150px;
+}
+
+.be-flag:hover > :nth-child(1) {
+  transform: rotate(-90deg) translateY(25px) translateX(-20px);
+  width: 50%;
+  height: calc(20px - 2px);
+}
+.be-flag:hover > :last-child {
+  transform: rotate(90deg) translateY(71px) translatex(80px);
+  width: 12%;
+  height: calc(20px - 1px);
+}
+
+.be-flag:hover > :nth-child(2){
+    transform: rotate( -90deg ) translateY( 58px );
+      width: 0%;
+      height: calc(20px - 1px);
+      opacity: 0;
+}
+
