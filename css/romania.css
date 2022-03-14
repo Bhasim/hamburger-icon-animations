@@ -5,6 +5,7 @@
     flex-direction: row;
     height: 5rem;
     width: 10rem;
+    margin: 3rem;
   }
   
   /* di color  */
@@ -20,7 +21,7 @@
     height: 9rem;
     width: 3rem;
     background-color: #fddc20c2;
-    borfrr-radius: 3px;
+    border-radius: 3px;
     border: 1px black solid;
   }
   .ro-flag :nth-child(3) {
@@ -40,9 +41,11 @@
   .ro-flag:hover > :last-child {
    
     transform: translateY( -6px ) translateX( -50px ) rotate( 90deg );
+    border-radius: 30px;
   }
   
   .ro-flag:hover > :nth-child(2){
     
     transform: rotate( 180deg );
+    border-radius: 30px;
   }

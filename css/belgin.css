@@ -5,6 +5,7 @@
   flex-direction: row;
   height: 5rem;
   width: 10rem;
+  margin: 3rem;
 }
 
 /* di color  */
@@ -44,11 +45,13 @@
   transform: rotate(-90deg) translateY(25px) translateX(-20px);
   width: 50%;
   height: calc(20px - 2px);
+  border-radius: 30px;
 }
 .be-flag:hover > :last-child {
   transform: rotate(90deg) translateY(71px) translatex(80px);
   width: 12%;
   height: calc(20px - 1px);
+  border-radius: 30px;
 }
 
 .be-flag:hover > :nth-child(2){
