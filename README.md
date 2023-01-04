@@ -28,7 +28,7 @@ A simple page to apply the idea of Hamburger menu animation On the flags of some
 
 ### Contact
 
-Mail: <Baha.hasim@dci.student><br>
+Mail: <baha.alden.job@gmail.com><br>
 GitHub: [Bhasim](https://github.com/)<br>
 LinkedIn: [Bahaaldean Hashim](https://www.linkedin.com/in/bahaaldean-hashim-598463103)
 
